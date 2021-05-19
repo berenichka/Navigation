@@ -56,7 +56,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View Post"/>
                                 <connections>
-                                    <segue destination="TEQ-Vv-gYH" kind="show" id="d27-kU-vnq"/>
+                                    <segue destination="TEQ-Vv-gYH" kind="show" identifier="post" id="d27-kU-vnq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -64,13 +64,7 @@
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Feed" id="rGE-BT-xRA">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="info" catalog="system" id="0wj-sj-pAo">
-                            <connections>
-                                <segue destination="KlS-ZZ-f1y" kind="presentation" id="x1Q-ZT-29I"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Feed" id="rGE-BT-xRA"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YHT-BC-hro" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -87,7 +81,13 @@
                         <viewLayoutGuide key="safeArea" id="Dyv-NL-ciS"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="View Post" id="ntd-yb-7rt"/>
+                    <navigationItem key="navigationItem" title="View Post" id="ntd-yb-7rt">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="info" catalog="system" id="beM-jL-7S1">
+                            <connections>
+                                <segue destination="KlS-ZZ-f1y" kind="presentation" id="292-qb-pOI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dGp-4h-V2Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,7 +102,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Iy-hS-Xqu">
-                                <rect key="frame" x="156" y="386" width="104" height="62"/>
+                                <rect key="frame" x="156" y="385" width="104" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Message"/>

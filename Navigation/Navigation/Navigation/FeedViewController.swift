@@ -8,6 +8,8 @@
 import UIKit
 
 class FeedViewController: UIViewController {
+    
+    var post: Post = Post(title: "My fisrt post")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +22,9 @@ class FeedViewController: UIViewController {
         guard segue.identifier == "post" else {
             return
         }
-        guard let vc = segue.destination as? PostViewController else {
+        if let vc = segue.destination as? PostViewController {
+            vc.title = post.title
+        } else {
             return
         }
        
@@ -28,10 +32,8 @@ class FeedViewController: UIViewController {
 
 }
 
-struct Post {
-    var title: String
-}
 
-var post: Post = Post(title: "Post")
+
+
 
 

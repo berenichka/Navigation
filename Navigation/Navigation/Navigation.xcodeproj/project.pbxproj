@@ -17,6 +17,7 @@
 		D598531C2646DFE600E21CF3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598531B2646DFE600E21CF3 /* ProfileViewController.swift */; };
 		D598531F2646E0CB00E21CF3 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598531E2646E0CB00E21CF3 /* PostViewController.swift */; };
 		D59853272647B1CD00E21CF3 /* InfoViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59853262647B1CD00E21CF3 /* InfoViewController2.swift */; };
+		D5B797FB26554AD6006B565B /* PostStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B797FA26554AD6006B565B /* PostStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D598531B2646DFE600E21CF3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D598531E2646E0CB00E21CF3 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		D59853262647B1CD00E21CF3 /* InfoViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController2.swift; sourceTree = "<group>"; };
+		D5B797FA26554AD6006B565B /* PostStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				D59853012646B44000E21CF3 /* SceneDelegate.swift */,
 				D59853032646B44000E21CF3 /* ViewController.swift */,
 				D59853052646B44000E21CF3 /* Main.storyboard */,
+				D5B797FA26554AD6006B565B /* PostStructure.swift */,
 				D59853262647B1CD00E21CF3 /* InfoViewController2.swift */,
 				D598531E2646E0CB00E21CF3 /* PostViewController.swift */,
 				D598531B2646DFE600E21CF3 /* ProfileViewController.swift */,
@@ -154,6 +157,7 @@
 				D59853002646B44000E21CF3 /* AppDelegate.swift in Sources */,
 				D598531C2646DFE600E21CF3 /* ProfileViewController.swift in Sources */,
 				D59853272647B1CD00E21CF3 /* InfoViewController2.swift in Sources */,
+				D5B797FB26554AD6006B565B /* PostStructure.swift in Sources */,
 				D59853182646DF0E00E21CF3 /* FeedViewController.swift in Sources */,
 				D59853022646B44000E21CF3 /* SceneDelegate.swift in Sources */,
 			);
